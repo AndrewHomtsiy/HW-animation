@@ -106,7 +106,7 @@ span:nth-last-child(2):hover {
     box-shadow: 5px 0 20px red;
 }
 .balls {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -127,23 +127,21 @@ span:nth-last-child(2):hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 50%;
+  width: auto;
+  height: 300px;
 }
 
 .ball {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
-  background-color: #fff;
 }
 
 .shadow {
   width: 30px;
   height: 10px;
   border-radius: 50%;
-  background-color: #979797;
-  filter: blur(3px);
+  filter: blur(4px);
 }
 
 .first, .left{
