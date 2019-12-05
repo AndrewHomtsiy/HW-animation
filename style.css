@@ -148,7 +148,7 @@ span:nth-last-child(2):hover {
 
 .first, .left{
   background-color: #2F4F6B;
-  animation: left-animation .5s linear infinite alternate;
+  animation: left-animation .8s linear infinite alternate;
 }
 
 .ball:nth-last-child(7), .shadow:nth-last-child(7) {
@@ -176,7 +176,7 @@ span:nth-last-child(2):hover {
 
 .last, .right {
   background-color: #D53624;
-  animation: right-animation .5s linear infinite alternate;
+  animation: right-animation .8s linear infinite alternate;
 }
 
 
