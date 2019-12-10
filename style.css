@@ -144,7 +144,7 @@ content: "";
   background-color: #2F4F6B;
   animation: left-animation .8s linear infinite alternate;
 }
-.first{
+.first {
   background-color: #2F4F6B;
   animation: shadow-animation-left .8s linear infinite alternate;
 }
@@ -180,7 +180,7 @@ content: "";
   background-color: #D53624;
   animation: shadow-animation-rigth .8s linear infinite alternate;
 }
-shadow-animation-left
+
 @keyframes shadow-animation-left {
   0%, 50% {
       transform: rotate(0) translateX(0);
@@ -212,7 +212,7 @@ shadow-animation-left
     transform: translateX(-150%);
     opacity: 0;
 }
-@keyframes {
+@keyframes right-animation{
 0% {
 opacity: 0;
  }
