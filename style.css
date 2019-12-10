@@ -212,6 +212,7 @@ content: "";
     transform: translateX(-150%);
     opacity: 0;
 }
+}
 @keyframes right-animation{
 0% {
 opacity: 0;
