@@ -1,5 +1,4 @@
-
- body
+body
  {
    margin: 0;
    padding: 0;
@@ -178,7 +177,7 @@ content: "";
 }
 .last {
   background-color: #D53624;
-  animation: shadow-animation-rigth .8s linear infinite alternate;
+  animation: shadow-animation-right .8s linear infinite alternate;
 }
 
 @keyframes shadow-animation-left {
@@ -201,36 +200,24 @@ content: "";
 }
 @keyframes left-animation {
 17% {
-    opacity: .2;
     transform: translateX(0);
 }
 67% {
-    opacity: .2;
     transform: translateX(0);
 }
 100% {
-    transform: translateX(-150%);
-    opacity: 0;
+    transform: translateX(-200%);
 }
 }
 @keyframes right-animation{
-0% {
-opacity: 0;
- }
-17% {
-    opacity: .2;
-}
 
-52% {
-    opacity: 0;
-    transform: translateX(150%);
+0% {
+    transform: translateX(200%);
 }
 67% {
-    opacity: .2;
     transform: translateX(0);
 }
 100% {
-    opacity: .2;
     transform: translateX(0);
 }
-
+}
