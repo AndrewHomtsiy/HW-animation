@@ -181,7 +181,7 @@ content: "";
   animation: shadow-animation-rigth .8s linear infinite alternate;
 }
 shadow-animation-left
-@keyframes left-animation {
+@keyframes shadow-animation-left {
   0%, 50% {
       transform: rotate(0) translateX(0);
   }
@@ -191,7 +191,7 @@ shadow-animation-left
   }
 }
 
-@keyframes right-animation {
+@keyframes shadow-animation-right {
   0% {
       transform: rotate(-55deg) translateX(50px);
   }
@@ -199,11 +199,7 @@ shadow-animation-left
       transform: rotate(0) translateX(0);
   }
 }
-@keyframes shadow-animation-left {
-0% {
-    opacity: 0;
-    transform: translateX(-150%);
-}
+@keyframes left-animation {
 17% {
     opacity: .2;
     transform: translateX(0);
@@ -216,7 +212,7 @@ shadow-animation-left
     transform: translateX(-150%);
     opacity: 0;
 }
-@keyframes shadow-animation-right
+@keyframes {
 0% {
 opacity: 0;
  }
